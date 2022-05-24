@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 24,
+    "height" : 33
+  }, {
+    "width" : 48,
+    "height" : 66
+  }, {
+    "width" : 96,
+    "height" : 132
+  }, {
+    "width" : 192,
+    "height" : 263
+  }, {
+    "width" : 383,
+    "height" : 525
+  }, {
+    "width" : 765,
+    "height" : 1050
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 765,
+  "@id" : "https://SaraGonzalezContreras.github.io/IIIF/images/India_de_mulgrave",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1050
+}
