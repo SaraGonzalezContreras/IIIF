@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 765,
+    "id" : "https://SaraGonzalezContreras.github.io/IIIF/images/India_de_mulgrave/canvas/",
+    "label" : {
+      "none" : [ "India_de_mulgrave" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://SaraGonzalezContreras.github.io/IIIF/images/India_de_mulgrave/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://SaraGonzalezContreras.github.io/IIIF/images/India_de_mulgrave/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 24,
+              "height" : 33
+            }, {
+              "width" : 48,
+              "height" : 66
+            }, {
+              "width" : 96,
+              "height" : 132
+            }, {
+              "width" : 192,
+              "height" : 263
+            }, {
+              "width" : 383,
+              "height" : 525
+            }, {
+              "width" : 765,
+              "height" : 1050
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 765,
+            "@id" : "https://SaraGonzalezContreras.github.io/IIIF/images/India_de_mulgrave",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1050
+          } ],
+          "format" : "image/jpeg",
+          "width" : 765,
+          "id" : "https://SaraGonzalezContreras.github.io/IIIF/images/India_de_mulgrave/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1050
+        },
+        "target" : "https://SaraGonzalezContreras.github.io/IIIF/images/India_de_mulgrave/canvas/"
+      } ]
+    } ],
+    "height" : 1050
+  }, {
     "width" : 1388,
     "id" : "https://SaraGonzalezContreras.github.io/IIIF/images/indios_mexicanos/canvas/",
     "label" : {
