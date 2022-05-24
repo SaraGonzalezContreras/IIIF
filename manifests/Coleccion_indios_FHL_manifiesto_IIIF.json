@@ -1,0 +1,101 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://SaraGonzalezContreras.github.io/IIIF/manifests/Coleccion_indios_FHL_manifiesto_IIIF.json",
+  "@type" : "sc:Manifest",
+  "label" : "Colección indios FHL",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://d9b6e132-4326-48d1-bc09-1bca055e987b",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://a82e1613-9b23-42f7-ab66-d467b788cc34",
+      "@type" : "sc:Canvas",
+      "label" : "Indios mexicanos",
+      "height" : 1050,
+      "width" : 1388,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1afbd104-8251-4b82-8f7b-e94127592701",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://saragonzalezcontreras.github.io/IIIF/images/indios_mexicanos/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://saragonzalezcontreras.github.io/IIIF/images/indios_mexicanos",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1050,
+          "width" : 1388
+        },
+        "on" : "http://a82e1613-9b23-42f7-ab66-d467b788cc34"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://62f01ac2-b253-4ce3-88a0-d8a60b39f4e5",
+      "@type" : "sc:Canvas",
+      "label" : "Indio camuchiro",
+      "height" : 1050,
+      "width" : 700,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1dca8443-dd8b-43fd-9919-208df3bdc2bf",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://saragonzalezcontreras.github.io/IIIF/images/Indio_camuchiro/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://saragonzalezcontreras.github.io/IIIF/images/Indio_camuchiro",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1050,
+          "width" : 700
+        },
+        "on" : "http://62f01ac2-b253-4ce3-88a0-d8a60b39f4e5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4665aaed-7e10-47c9-af61-fa458c8246fe",
+      "@type" : "sc:Canvas",
+      "label" : "India de Mulgrave",
+      "height" : 1050,
+      "width" : 765,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e8594a4a-0f57-4d83-862b-430476c64545",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://saragonzalezcontreras.github.io/IIIF/images/India_de_mulgrave/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://saragonzalezcontreras.github.io/IIIF/images/India_de_mulgrave",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1050,
+          "width" : 765
+        },
+        "on" : "http://4665aaed-7e10-47c9-af61-fa458c8246fe"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
