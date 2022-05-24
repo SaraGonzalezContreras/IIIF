@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 22,
+    "height" : 33
+  }, {
+    "width" : 44,
+    "height" : 66
+  }, {
+    "width" : 88,
+    "height" : 132
+  }, {
+    "width" : 175,
+    "height" : 263
+  }, {
+    "width" : 350,
+    "height" : 525
+  }, {
+    "width" : 700,
+    "height" : 1050
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 700,
+  "@id" : "https://SaraGonzalezContreras.github.io/IIIF/images/Indio_camuchiro",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1050
+}
