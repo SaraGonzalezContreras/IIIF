@@ -1,0 +1,13 @@
+{
+  "id" : "https://SaraGonzalezContreras.github.io/IIIF/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in SaraGonzalezContreras/IIIF project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://SaraGonzalezContreras.github.io/IIIF/manifests/Coleccion_indios_FHL_manifiesto_IIIF.json",
+    "label" : "Colección indios FHL"
+  } ]
+}
